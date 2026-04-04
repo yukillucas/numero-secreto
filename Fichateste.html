@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title> javascript</title>
+    <meta charset="UTF-8"/>
+
+    <script>
+      
+       function somar(){
+         const n1 = document.getElementById('Atk').value
+         const n2 = document.getElementById('Def').value
+         const n3 = document.getElementById('Hp').value
+
+         const soma = Number(n1) + Number(n2) + Number(n3)
+
+         document.getElementById('resultado').innerHTML = "Total de pontos " + soma // deste modo vai alterar "o resultado é " para o nome aqui
+
+         
+
+         
+
+
+       }
+     
+       const nome = alert("Você foi hackiado pela lenda em todos os jogos Yukill")
+
+       function haker(){
+         const hh = alert("Seu computador agora possui a bênção do honrado, proteção garantida por 24h")
+         
+
+         
+
+         
+
+
+       }
+
+    </script>
+  </head>
+
+<body>
+    
+    <form action="">
+
+        Atk: <input type="text" id="Atk" /><br>
+        Def: <input type="text" id="Def" /><br>
+        Hp :  <input type="text" id="Hp" /><br>
+
+        <input type="button" value="Somar" onclick="somar()">
+
+        <P id="resultado"> Total de pontos </P>
+        <hr>
+
+        <input type="button" value="Bênção" onclick="haker()">
+
+
+
+    </form>
+
+</body>

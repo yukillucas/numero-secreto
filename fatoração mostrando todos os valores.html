@@ -1,0 +1,24 @@
+<script>
+    
+    function calcularFatoracoesAte(numero) {
+  for (let n = 1; n <= numero; n++) {
+    let fatorial = 1;
+    let passos = ''; // para montar a expressão de multiplicação
+    
+    for (let i = 1; i <= n; i++) {
+      fatorial *= i;
+      passos += i;
+      if (i < n) {
+        passos += ' x ';
+      }
+    }
+    
+    console.log(`Fatorial de ${n} (${passos}) = ${fatorial}`);
+  }
+}
+
+// Exemplo de uso:
+let numero = 6;
+calcularFatoracoesAte(numero);
+
+</script>
