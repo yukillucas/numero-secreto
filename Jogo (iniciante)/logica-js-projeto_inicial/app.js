@@ -1,4 +1,4 @@
-alert('Boas vindas ao jogo do número secreto rulador');
+alert('Boas vindas ao jogo do número secreto');
 let numeroMaximo = 5000;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); 
 console.log(numeroSecreto);
